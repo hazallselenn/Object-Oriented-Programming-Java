@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.mycompany.sayilaritoplama;
+
+/**
+ *
+ * @author dell
+ */
+import java.util.*;
+public class SayilariToplama {
+    
+
+    public static void main(String[] args) {
+        int sayi1,sayi2,toplam;
+        Scanner sc=new Scanner(System.in);
+        
+        System.out.print("Bir sayi girin:");
+        sayi1=sc.nextInt();
+        System.out.print("Bir sayi girin:");
+        sayi2=sc.nextInt();
+        toplam=sayi1+sayi2;
+        
+        System.out.println("toplam: "+toplam);
+        
+        
+        
+    }
+}
